@@ -6,7 +6,7 @@ import React, {
   useState,
 } from "react";
 import { AgGridReact } from "ag-grid-react";
-/* import datas from "../../../../mock-data/okrData.json"; */
+import datas from "../../../../mock-data/okrData.json";
 import { IntegratedChartsModule } from "ag-grid-enterprise";
 import { AgChartsEnterpriseModule } from "ag-charts-enterprise";
 /* import dayjs from "dayjs"; */
@@ -425,10 +425,10 @@ const OKRTable = () => {
   }, []);
 
   const getOKRData = async (startDate, endDate) => {
-    setDataOKR([]);
-/*     setDataOKR(datas);
+    /* setDataOKR([]); */
+    setDataOKR(datas);
     filterAgentType(datas, "AI");
-    filterAgentType(datas, "NI"); */
+    filterAgentType(datas, "NI");
     setLoading(true);
     try {
       const response = await getOKR(startDate, endDate);
