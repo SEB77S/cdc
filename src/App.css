@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f8f8f5;
+  width: 100%;
+}
+

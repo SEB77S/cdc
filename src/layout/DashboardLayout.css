@@ -1,0 +1,12 @@
+.ant-layout-sider .ant-layout-sider-trigger {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    height: 48px;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+    background: #0958d9;
+    cursor: pointer;
+    transition: all 0.2s;
+}

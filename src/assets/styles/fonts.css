@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('../../fonts/PPObjectSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('../../fonts/PPObjectSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('../../fonts/PPObjectSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('../../fonts/PPObjectSans-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: 'PPObjectSans', sans-serif;
+}

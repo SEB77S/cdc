@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply shadow-md text-center flex items-center justify-center hover:scale-[1.02] transition delay-100 bg-white cursor-pointer
+}

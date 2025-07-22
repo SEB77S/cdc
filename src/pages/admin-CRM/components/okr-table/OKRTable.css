@@ -1,0 +1,59 @@
+/* COLUMNA RDO */
+.rdo-red {
+    background-color: #fb0016;
+}
+
+.rdo-orange {
+    background-color: #F4CCCC;
+}
+
+.rdo-yellow {
+    background-color: #FFFF00;
+}
+
+.rdo-green {
+    background-color: #D3E4CD;
+}
+
+/* COLUMNA % ODV EN LOG */
+
+.odv-log-red {
+    background-color: #fb0016;
+}
+
+.odv-log-yellow {
+    background-color: #FFFF00;
+}
+
+.odv-log-green {
+    background-color: #D3E4CD;
+}
+
+/* COLUMNA Llamadas */
+.call-orange {
+  background-color: #FF9900;
+}
+.call-green {
+  background-color: #D3E4CD;
+}
+.call-yellow {
+  background-color: #FFFF00;
+}
+.call-red {
+  background-color: #fb0016;
+}
+
+/* PARA LA FILA DE LOS TOTALES */
+.ag-row-pinned {
+    background-color: #e0e0e0;
+    font-weight: 500;
+}
+
+.ag-header-cell-label {
+  white-space: normal;
+  text-overflow: clip;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.2;
+  font-size: 12px; /* opcional: para que además reduzca un poco la fuente */
+}
