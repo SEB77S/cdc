@@ -6,7 +6,7 @@ import React, {
   useState,
 } from "react";
 import { AgGridReact } from "ag-grid-react";
-import datas from "../../../../mock-data/okrData.json";
+/* import datas from "../../../../mock-data/okrData.json"; */
 import { IntegratedChartsModule } from "ag-grid-enterprise";
 import { AgChartsEnterpriseModule } from "ag-charts-enterprise";
 /* import dayjs from "dayjs"; */

@@ -38,7 +38,7 @@ const Sidebar = ({ collapsed }) => {
       ],
     },
     {
-      key: 'group-sales-volaris',
+      key: 'group-sales-volaris?user_id=1',
       icon: <DollarOutlined />,
       label: <Link to="/group-sales-volaris">Venta grupos volaris</Link>,
     },
