@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FormGroupSales from "./components/FormGroupSales/FormGroupSales.JSX"
+import FormGroupSales from "./components/FormGroupSales/FormGroupSales"
 import ListPassengers from "./components/ListPassengers/ListPassengers"
 import { useAuth } from "../../hooks/useAuth";
 import { useLocation } from "react-router-dom";
